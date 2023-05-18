@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhoulongf/nuxt-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhoulongf/nuxt-vue/issues"
+  },
+  "homepage": "https://github.com/zhoulongf/nuxt-vue#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "vue": "^2.7.0",
+    "vue-server-renderer": "^2.7.0"
+  }
+}

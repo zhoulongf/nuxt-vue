@@ -1,0 +1,84 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "nuxt-vue",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zhoulongf/nuxt-vue.git"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/zhoulongf/nuxt-vue/issues"
+      },
+      "homepage": "https://github.com/zhoulongf/nuxt-vue#readme"
+    },
+    "prefix": "/Users/zhoulongfei/code/ssr/nuxt-vue"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/zhoulongfei/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/zhoulongfei/code/ssr/nuxt-vue/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/zhoulongfei/code/ssr/nuxt-vue",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "ccinpm.citycloud.com.cn/vue/3.3.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "vue",
+      "rawSpec": "latest"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "ccinpm.citycloud.com.cn/vue/3.3.2",
+    "requester": "/Users/zhoulongfei/code/ssr/nuxt-vue",
+    "status": "resolved"
+  },
+  "6 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "ccinpm.citycloud.com.cn/vue/3.3.2",
+    "size": 525645,
+    "status": "started"
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "ccinpm.citycloud.com.cn/vue/3.3.2",
+    "requester": "/Users/zhoulongfei/code/ssr/nuxt-vue",
+    "status": "fetched"
+  },
+  "8 debug pnpm:update-check": {
+    "currentVersion": "6.32.3",
+    "latestVersion": "8.5.1"
+  },
+  "9 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "vue-server-rander is not in the npm registry, or you have no permission to fetch it.\n\nAn authorization header was used: Bearer /IYb[hidden]",
+    "request": {
+      "authHeaderValue": "Bearer /IYbNgfiTK0Ei9/91v2Jh5LssPcNUms1ORAuinZqDpM=",
+      "url": "http://ccinpm.citycloud.com.cn/vue-server-rander"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "vue-server-rander",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET http://ccinpm.citycloud.com.cn/vue-server-rander: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET http://ccinpm.citycloud.com.cn/vue-server-rander: Not Found - 404\n    at RetryOperation._fn (/usr/local/Cellar/nvm/0.39.0/versions/node/v12.22.10/lib/node_modules/pnpm/dist/pnpm.cjs:85709:19)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+    }
+  }
+}
